@@ -1,45 +1,32 @@
-# AngularJS TodoMVC Example
+# Bugs to Create
 
-> HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+* Editing an item to be empty doesn't delete the item.
+* Shouldn't be able to save blank items
+* "Complete All" button uncompletes all complete ones if there's a mix of statuses.
 
-> _[AngularJS - angularjs.org](http://angularjs.org)_
+
+## Current Bugs
+* Spelling error (toodo) in instruction text at the bottom of the screen
+* Spelling Error in default "What need's to be done?" Text (apostrophe)
+* Not counting the number of items properly (-1)
+* Active should have a capital 'A' for consistency
+* Clear Completed button doesn't work
+* Two 404 errors in the console
+* With enough refreshes, the Symbol Ã (A with Tilde) will appear instead of the
+ X and â (A with carat/a-circumflex) will appear instead of the "Check All"
+ button.
+* Undoing "Complete All" takes two clicks
+* Delete Task button has a tooltip of "TODO:REMOVE THIS EVENTUALLY"
+* When window is made smaller, everything looks fine except the title overlaps itself
+* Trimmed items will expand to their original state when editing
+* After creating a new item, the "New Item" entry box has 3 spaces in it
 
 
-## Learning AngularJS
-The [AngularJS website](http://angularjs.org) is a great resource for getting started.
+## Improvement Suggestions
+* Not using HTTPS
+* When a large item is created, the "Complete" button is vertically centered, but the delete button is at the bottom.
+* Down arrow as "Complete All" is unintuitive
+* When adding a new item, page should navigate back to the "All" or "Active" tab to see the new item.
 
-Here are some links you may find helpful:
-
-* [Tutorial](http://docs.angularjs.org/tutorial)
-* [API Reference](http://docs.angularjs.org/api)
-* [Developer Guide](http://docs.angularjs.org/guide)
-* [Applications built with AngularJS](https://www.madewithangular.com/)
-* [Blog](http://blog.angularjs.org)
-* [FAQ](http://docs.angularjs.org/misc/faq)
-* [AngularJS Meetups](http://www.youtube.com/angularjs)
-
-Articles and guides from the community:
-
-* [Code School AngularJS course](https://www.codeschool.com/courses/shaping-up-with-angular-js)
-* [5 Awesome AngularJS Features](http://net.tutsplus.com/tutorials/javascript-ajax/5-awesome-angularjs-features)
-* [Using Yeoman with AngularJS](http://briantford.com/blog/angular-yeoman.html)
-* [me&ngular - an introduction to MVW](http://stephenplusplus.github.io/meangular)
-
-Get help from other AngularJS users:
-
-* [Walkthroughs and Tutorials on YouTube](http://www.youtube.com/playlist?list=PL1w1q3fL4pmgqpzb-XhG7Clgi67d_OHXz)
-* [Google Groups mailing list](https://groups.google.com/forum/?fromgroups#!forum/angular)
-* [angularjs on Stack Overflow](http://stackoverflow.com/questions/tagged/angularjs)
-* [AngularJS on Twitter](https://twitter.com/angularjs)
-* [AngularjS on Google +](https://plus.google.com/+AngularJS/posts)
-
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
-## Testsuite
-
-The app uses [Karma](http://karma-runner.github.io/0.12/index.html) to run the tests located in the `test/` folder. To run the tests:
-
-```
-$ npm install
-$ npm test
-```
+## Worthwhile observations
+* It trims spaces at the start and the end and only allows a single space otherwise.
