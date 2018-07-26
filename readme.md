@@ -13,15 +13,22 @@ It's importatnt to note that the test itself is not important, we just use the r
 ### Topics needed to cover:
 
 * Assumptions made (What should the "Clear" button do? Clear completed? Clear Everything?)
-  * Who would you clear these assumptions with?
+  * Who would you clear these assumptions with?  
 * Field Testing
   * Max values (Length)
   * Unicode?
   * JS Injection?
-  * DB Injection? (Did they know it doesn't use a DB?)
+  * DB Injection? (Did they know it doesn't use a DB?)  
+  
 * Value of Exploratory vs Script based testing
   * Which will result in finding more issues?
   * Given limited time, which would you focus on any why?
+  
+* Severity vs Impact of the bugs
+  * What is Severity and Impact?
+  * How would you prioritise the list you've written?
+    * If you only had 5 minutes to retest the application, where would you start?  
+    
 * What is written down in a bug report from this example?
   * Input Provided
   * Expected Output
