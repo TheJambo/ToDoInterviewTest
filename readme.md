@@ -40,7 +40,7 @@ It's importatnt to note that the test itself is not important, we just use the r
 * Spelling Error in default "What need's to be done?" Text (apostrophe)
 * Not counting the number of items properly (-1)
 * Active should have a capital 'A' for consistency
-* Clear Completed button doesn't work
+* Clear button only clears completed items - Intentional or not? Assumptions will be made here.
 * Two 404 errors in the console
 * With enough refreshes, the Symbol Ã (A with Tilde) will appear instead of the
  X and â (A with carat/a-circumflex) will appear instead of the "Check All"
@@ -59,4 +59,4 @@ It's importatnt to note that the test itself is not important, we just use the r
 * When adding a new item, page should navigate back to the "All" or "Active" tab to see the new item.
 
 ## Worthwhile observations
-* It trims spaces at the start and the end and only allows a single space otherwise.
+* It trims spaces at the start and the end and only allows a single space elsewhere.
