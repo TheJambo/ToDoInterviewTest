@@ -43,20 +43,22 @@ It's importatnt to note that the test itself is not important, we just use the r
 * Save blank items
 
 ## Current Bugs
-* Spelling error (toodo) in instruction text at the bottom of the screen
-* Spelling Error in default "What need's to be done?" Text (apostrophe)
 * Not counting the number of items properly (-1)
+* Spelling error (toodo) in instruction text at the bottom of the screen
 * Active should have a capital 'A' for consistency
-* Clear button only clears completed items - Intentional or not? Assumptions will be made here.
-* Two 404 errors in the console
-* With enough refreshes, the Symbol Ã (A with Tilde) will appear instead of the
- X and â (A with carat/a-circumflex) will appear instead of the "Check All"
- button.
+* Can't prioritise the tasks / reorder items
+* Elements are too pale/small/unreadable
 * Undoing "Complete All" takes two clicks
+* Spelling Error in default "What need's to be done?" Text (apostrophe)
 * Delete Task button has a tooltip of "TODO:REMOVE THIS EVENTUALLY"
 * When window is made smaller, everything looks fine except the title overlaps itself
-* Trimmed items will expand to their original state when editing
+* When a large item is created, the "Complete" button is vertically centered, but the delete button is at the bottom.
 * After creating a new item, the "New Item" entry box has 3 spaces in it
+* Word Wrapping isn't great - Cuts words apart
+* Inappropriate comment in source code.
+* Two 404 errors in the console
+* Trimmed items will expand to their original state when editing
+* Rarely on a refresh, the Symbol Ã will appear instead of the X and â will appear instead of the "Check All" button (Font failing to load)
 
 
 ## Improvement Suggestions
