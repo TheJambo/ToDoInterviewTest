@@ -8,7 +8,7 @@ As this is a browser based test, there are a few ways you can suggest they write
  * [Markdown](https://dillinger.io)
  * Old Fashioned Paper
  
-It's importatnt to note that the test itself is not important, we just use the results of the test as a starting point for many different conversations.
+It's important to note that the test itself is not important, we just use the results of the test as a starting point for many different conversations.
 
 ### Topics needed to cover:
 
@@ -59,7 +59,7 @@ It's importatnt to note that the test itself is not important, we just use the r
 * Two 404 errors in the console
 * Trimmed items will expand to their original state when editing
 * Rarely on a refresh, the Symbol Ã will appear instead of the X and â will appear instead of the "Check All" button (Font failing to load)
-
+* When using two tabs, the list is not kept up to date, you need to manually refresh.
 
 ## Improvement Suggestions
 * Not using HTTPS
@@ -69,3 +69,4 @@ It's importatnt to note that the test itself is not important, we just use the r
 
 ## Worthwhile observations
 * It trims spaces at the start and the end and only allows a single space elsewhere.
+* Item count should probbably be on a page by page basis, not global.
