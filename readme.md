@@ -1,5 +1,5 @@
 ## How to use
-Load up https://thejambo.github.io/ToDoInterviewTest/ for the candidate.
+Load up http://james.am for the candidate.
 Tell them "This is an application we've built interally and are planning to use to track basic tasks day to day, we'd like you to give it a quick test (timeboxed to 20 mins) to identify any issues"
 
 As this is a browser based test, there are a few ways you can suggest they write their findings, such as:
